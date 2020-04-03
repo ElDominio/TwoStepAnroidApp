@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b989e</color>
+    <color name="colorPrimaryDark">#167c82</color>
+    <!--002848-->
+    <color name="colorAccent">#ff9c11</color>
+    <color name="divider">#1f000000</color>
+
+
+    <!-- Colors for red theme -->
+    <!--800 < Grey < 900. Originally #404040-->
+    <!--Grey 900. Originally #363636-->
+    <!--12% white. Originally #808080-->
+
+    <color name="material_green_700">#388E3C</color>
+
+    <color name="material_red_a200">#FF5252</color>
+
+    <!-- I/O color schemes -->
+    <!--    Joystick-->
+
+</resources>

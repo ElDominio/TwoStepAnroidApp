@@ -1,0 +1,37 @@
+<resources>
+    <declare-styleable name="JoyStickView">
+        <attr name="height" format="dimension"></attr>
+        <attr name="width" format="dimension"></attr>
+        <attr name="joystickImage" format="reference"></attr>
+        <attr name="joystickSize" format="dimension"></attr>
+        <attr name="joystickAlpha" format="float"></attr>
+        <attr name="joystickOffset" format="dimension"></attr>
+        <attr name="backgroundImage" format="reference"></attr>
+        <attr name="backgroundSize" format="dimension"></attr>
+        <attr name="backgroundAlpha" format="float"></attr>
+        <attr name="minumumDistance" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="ControlPadView">
+        <attr name="position" format="enum">
+            <enum name="LEFT" value="0" />
+            <enum name="TOP" value="1" />
+            <enum name="RIGHT" value="2" />
+            <enum name="BOTTOM" value="3" />
+        </attr>
+        <attr name="backgroundColor" format="color"></attr>
+        <attr name="backgroundPressedColor" format="color"></attr>
+        <attr name="foregroundColor" format="color"></attr>
+        <attr name="foregroundPressedColor" format="color"></attr>
+        <attr name="symbolImage" format="reference"></attr>
+        <attr name="buttonImage" format="reference"></attr>
+
+<!--        <attr name="controlBackgroundColor" format="color"></attr>-->
+<!--        <attr name="controlBackgroundPressedColor" format="color"></attr>-->
+<!--        <attr name="controlForegroundColor" format="color"></attr>-->
+<!--        <attr name="controlForegroundPressedColor" format="color"></attr>-->
+<!--        <attr name="controlSymbolImage" format="reference"></attr>-->
+<!--        <attr name="controlButtonImage" format="reference"></attr>-->
+    </declare-styleable>
+
+
+</resources>

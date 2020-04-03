@@ -1,0 +1,68 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bluetooth Control</string>
+
+    <!--  BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device</string>
+    <string name="clear_log">Clear Log</string>
+    <!--    State-->
+    <string name="state">State</string>
+    <string name="pot_position">Pot Position</string>
+    <string name="two_step_rpm">2 Step RPM</string>
+    <string name="rpm_hysterisis">Rpm Hysterisis</string>
+    <string name="cyl_mode">Cyl Mode</string>
+    <string name="coil_power">Coil Power</string>
+    <string name="rpm_filter">Rpm Filter</string>
+    <string name="toyota_mode">Toyota Mode</string>
+    <string name="system_armed">System Armed</string>
+    <string name="trig_type">Trig Type</string>
+    <!--    two_step_setting-->
+    <string name="two_step_setting">2 Step Setting</string>
+    <string name="desired_rpm">Desired RPM</string>
+    <string name="position">Position</string>
+    <string name="coild_setting">Coil Setting</string>
+    <string name="coil_type">Coil Type</string>
+    <string name="trigger_type">Trigger Type</string>
+    <string name="extra">Extra</string>
+    <!--    coil-->
+    <string-array name="coil_range">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+    </string-array>
+    <!--    type-->
+    <string-array name="type_range">
+        <item name="a">a</item>
+        <item name="b">b</item>
+        <item name="c">c</item>
+        <item name="d">d</item>
+        <item name="e">e</item>
+        <item name="f">f</item>
+        <item name="g">g</item>
+        <item name="h">h</item>
+        <item name="i">i</item>
+        <item name="j">j</item>
+        <item name="k">k</item>
+    </string-array>
+</resources>

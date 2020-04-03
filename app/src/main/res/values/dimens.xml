@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- FAB -->
+    <!-- Card -->
+    <!-- ListView -->
+    <dimen name="spacing_minor">8dp</dimen>
+    <dimen name="spacing_major">16dp</dimen>
+
+
+    <!--My stuff-->
+    <!--50% white-->
+    <!--100% white-->
+    <!--87% black-->
+    <!--70% white-->
+    <!--54% black-->
+    <!--50% white-->
+    <!--38% black-->
+
+    <!--270dp: (6 rows) * (32dp row height) + (50dp month_list_item_header_height) + (28dp ???) -->
+    <!--318dp: (6 rows) * (40dp row height) + (50dp month header size) + (28dp ???) -->
+    <!--324dp: (6 rows) * (40dp row height) + (30dp month_list_item_header_height_no_title)
+             + (6dp month_view_top_padding) + (48dp month_navigation_bar_height).
+    A selection on a day in the sixth row will be *slightly* cut off.
+    You can add 16dp to this amount to ensure the entire circle is shown.
+    However, you risk making the dialog too tall. -->
+
+</resources>
